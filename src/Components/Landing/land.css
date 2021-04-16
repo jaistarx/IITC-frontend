@@ -1,0 +1,155 @@
+.carou {
+  width: 66%;
+  margin-left: 17%;
+  margin-right: 17%;
+  margin-top: 3%;
+}
+.clr {
+  color: black;
+}
+
+.hed {
+  margin-left: 7%;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+}
+.sb {
+  border: rgb(199, 185, 185) thin solid;
+  border-radius: 20px;
+  padding: 3%;
+  width: 23.5%;
+  text-align: center;
+  box-shadow: 5px 5px #e4dddd;
+}
+
+.cnt {
+  margin-top: 3%;
+}
+.abttxt {
+  width: 70%;
+}
+.reds {
+  background-color: #ff4747;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  padding-top: 4%;
+  padding-bottom: 2.5%;
+  color: white;
+  text-align: center;
+}
+.hd {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+.test {
+  border: rgb(199, 185, 185) thin solid;
+  border-radius: 20px;
+  padding: 3%;
+  width: 23.5%;
+  text-align: center;
+  box-shadow: 5px 5px #e4dddd;
+}
+.flexingservice {
+  display: flex;
+  width: 20%;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-bottom: 3%;
+}
+.flexing {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+}
+.flexingres {
+  display: flex;
+  width: 30%;
+  justify-content: space-between;
+}
+
+.flexingtest {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  padding-left: 7%;
+  padding-bottom: 3%;
+}
+
+.restxt {
+  padding-top: 5%;
+}
+.testdiv {
+  margin-bottom: 5%;
+}
+.mrinalini {
+  margin-top: 2%;
+}
+
+.downdiv {
+  text-align: center;
+}
+.downtext {
+  width: 80%;
+  text-align: center;
+  padding: 5% 0%;
+  padding-left: 7%;
+  /*  margin: 0% 18%; */
+}
+.downbtn {
+  background-color: #ff4747;
+  border-radius: 20px;
+  color: #ffffff;
+  border: none;
+  padding: 1% 4%;
+}
+
+@media screen and (max-width: 54rem) {
+  .sb {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+  .fn {
+    font-size: 1.4rem;
+  }
+  .cnt {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .abttxt {
+    width: 90%;
+  }
+  .abth {
+    margin-left: 6%;
+    width: 60%;
+  }
+  .clr {
+    color: white;
+    font-size: 0.8rem;
+  }
+
+  .test{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .flexingres{
+    width: 70%;
+  }
+  .flexing{
+    width: 50%;
+  }
+
+  .flexingservice{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 3%;
+  }
+  .downdiv{
+    margin-bottom: 10%;
+  }
+}

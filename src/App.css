@@ -1,0 +1,34 @@
+.flexes{
+    
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.bb{
+  border: rgb(199, 185, 185) thin solid;
+  border-radius: 20px;
+  padding: 3%;
+  width: 80%;
+  
+  box-shadow: 5px 5px #e4dddd;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+
+}
+.redbn{
+  color:white;
+  background-color: #FF4747;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  width: max-content;
+  padding: 1%;
+  float:right;
+}
+@media screen and (max-width:54rem){
+  .flexes{
+    flex-direction: column;
+  }
+}

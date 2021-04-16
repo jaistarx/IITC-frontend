@@ -1,0 +1,32 @@
+
+.coursehead{
+    display: flex;
+}
+.ch{
+    margin-top: 2%;
+}
+.cd{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.cc{
+    width: 60%;
+}
+.mt{
+    margin-top: 3%;
+
+}
+@media screen and (max-width:54rem){
+    .cc{
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .cd{
+        margin-left: 15%;
+        margin-right: 15%;
+        width: 70%;
+    }
+    .mt{
+        margin-bottom: 3%;
+    }
+}

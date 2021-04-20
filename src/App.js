@@ -6,6 +6,10 @@ import Headers from './Components/Headerf/header'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {Router} from '@reach/router';
+import Axios from 'axios'
+
+Axios.defaults.baseURL='https://iitcbackend.herokuapp.com/'
+
 
 function App() {
   return (
@@ -33,4 +37,5 @@ function FooterPage(){
 function HeaderPage(){
   return <Headers></Headers>
 }
+
 export default App;

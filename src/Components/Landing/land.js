@@ -229,38 +229,7 @@ export default function Lands() {
       
       {/* Testimonials */}
       
-      <div className="flexingtest">
-        <img src="images\testimonials 1.png" alt="test1"></img>
-        <div className="hed">
-          <h4>Testimonials</h4>
-        </div>
-      </div>
-      <div className="flexes testdiv">
-        <div className="test">
-          <img src="images\download (1) 1.png " alt="test2"></img>
-          <h5 className="mrinalini">Miss Mrinalini</h5>
-          <p>
-            something that miss will have to say about the experience with this
-            organisation
-          </p>
-        </div>
-        <div className="test">
-          <img src="images\download 1.png" alt="test3"></img>
-          <h5 className="mrinalini">Miss Mrinalini</h5>
-          <p>
-            something that miss will have to say about the experience with this
-            organisation
-          </p>
-        </div>
-        <div className="test">
-          <img src="images\teaching-website 1.png" alt="test4"></img>
-          <h5 className="mrinalini">Miss Mrinalini</h5>
-          <p>
-            something that miss will have to say about the experience with this
-            organisation
-          </p>
-        </div>
-      </div>
+    
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Headers(){
 return(
 <div>
 {/* hii */}
-<Navbar collapseOnSelect expand="lg" style={{backgroundColor:"#276678"}}>
+<Navbar collapseOnSelect expand="lg" style={{backgroundColor:"#6c63fe"}}>
   <Navbar.Brand href="#home" style={{color:"#05024F"}}>Education</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">

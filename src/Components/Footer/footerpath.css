@@ -1,6 +1,6 @@
 .outer {
     color: #FFFFFF;
-    background-color: #FF4747;
+    background-color: #276678;
   }
   .flexing1 {
     display: flex;
@@ -18,7 +18,7 @@
   .web {
     text-align: right;
     padding: 2%;
-    color: #3F3D56;
+    color: #d1ced4;
     padding-top: 0%;
   }
   .copyright {
@@ -26,7 +26,7 @@
     padding-bottom: 0%;
   }
   .copyright span {
-    color:#3F3D56;
+    color:#d1ced4;
   }
 
   @media screen and (max-width:56rem){

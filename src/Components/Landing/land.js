@@ -66,7 +66,7 @@ export default function Lands() {
       </div>
       <div className="flexes">
         <div className="sb">
-          <img src="images/undraw_certification_aif8.svg" alt="service 1"></img>
+          <img src="images/undraw_certification_aif8.png" alt="service 1"></img>
           <b>
             <p>Service 1</p>
           </b>
@@ -87,7 +87,7 @@ export default function Lands() {
         </div>
         <div className="sb">
           <img
-            src="images\undraw_predictive_analytics_kf9n 1.png"
+            src="images\undraw_predictive_analytics_kf9n.png"
             alt="service 1"
           ></img>
           <b>
@@ -176,7 +176,7 @@ export default function Lands() {
           <div className="downdiv">
             <div>
               {" "}
-              <img src="images\undraw_learning_2q1h 1.png" alt="download2"></img>
+              <img src="images\undraw_learning_2q1h.png" alt="download2"></img>
             </div>
             <div className="downtext">
               <p>

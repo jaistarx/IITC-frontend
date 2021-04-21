@@ -69,6 +69,7 @@ export default function Lands() {
           <img src="images/undraw_certification_aif8.png" alt="service 1"></img>
           <b>
             <p>Service 1</p>
+    
           </b>
           <p>
             Something about the service offered by the educational institution.

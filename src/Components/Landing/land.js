@@ -1,6 +1,7 @@
 import React from "react";
 import Carousel from "react-bootstrap/Carousel";
 import "./land.css";
+import {PrimarySearchAppBar} from "../Headerf/header"
 export default function Lands() {
   return (
     <div>
@@ -136,7 +137,7 @@ export default function Lands() {
 
       {/* aboutus */}
       
-      <div className="bb">
+      <div id="au" className="bb">
         <div className="flexing">
           <img src="images\Group.png" alt="group"></img>
           <h4 className="abth">About Us</h4>

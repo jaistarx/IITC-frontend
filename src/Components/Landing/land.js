@@ -116,11 +116,11 @@ export default function Lands() {
           <h4 className="hd">1000</h4>
           <p>Previous Questions</p>
         </div>
-        <div>
+        {/* <div>
           <img src="images\mobile-app 1.png" alt="results"></img>
           <h4 className="hd">3000</h4>
           <p>App Downloads</p>
-        </div>
+        </div> */}
         <div>
           <img src="images\verified-text-paper 1.png" alt="results"></img>
           <h4 className="hd">10000</h4>

@@ -5,12 +5,15 @@ import {PrimarySearchAppBar} from "../Headerf/header"
 export default function Lands() {
   return (
     <div>
-      <div className="carou">
-      <h1 style={{ textAlign: "center", marginTop: "3%" }} className="fn">
-          {" "}
+      <div className="fullform">
+      <h1>
           INTELLIGENT INSTITUTE FOR TECHNICAL COACHING
         </h1>
-        <br></br>
+        </div>
+        
+      <div className="carou">
+      
+        
         
         <Carousel>
           <Carousel.Item>

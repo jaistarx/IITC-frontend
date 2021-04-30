@@ -128,7 +128,10 @@ const useStyles = makeStyles((theme) => ({
   },
   logoimg:{
     width:"9%",
-  }
+  },
+  flexing:{
+    display:"flex",
+  },
 }));
 
 export default function PrimarySearchAppBar() {
@@ -196,8 +199,12 @@ export default function PrimarySearchAppBar() {
         <p>Messages</p>
       </MenuItem> */}
       <MenuItem>
-      <a href="#au">
-            <IconButton><div className={classes.aboutmob}>About Us</div></IconButton></a>
+      <a href="/course">
+            <IconButton><div className={classes.aboutmob}>Courses</div></IconButton></a>
+            </MenuItem>
+            <MenuItem>
+      <a href="/">
+            <IconButton><div className={classes.aboutmob}>Home</div></IconButton></a>
             </MenuItem>
       {/* <MenuItem>
         <IconButton aria-label="show 11 new notifications" color="inherit">

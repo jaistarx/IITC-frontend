@@ -127,7 +127,7 @@ const useStyles = makeStyles((theme) => ({
     color:"black",
   },
   logoimg:{
-    width:"9%",
+    width:"140px",
   },
   flexing:{
     display:"flex",

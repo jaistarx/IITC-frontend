@@ -125,6 +125,9 @@ const useStyles = makeStyles((theme) => ({
   aboutmob:{
     textDecoration:"none",
     color:"black",
+  },
+  logoimg:{
+    width:"9%",
   }
 }));
 
@@ -196,14 +199,14 @@ export default function PrimarySearchAppBar() {
       <a href="#au">
             <IconButton><div className={classes.aboutmob}>About Us</div></IconButton></a>
             </MenuItem>
-      <MenuItem>
+      {/* <MenuItem>
         <IconButton aria-label="show 11 new notifications" color="inherit">
           <Badge badgeContent={11} color="secondary">
             <NotificationsIcon />
           </Badge>
         </IconButton>
         <p>Notifications</p>
-      </MenuItem>
+      </MenuItem> */}
       {/* <MenuItem onClick={handleProfileMenuOpen}>
         <IconButton
           aria-label="account of current user"
@@ -222,7 +225,7 @@ export default function PrimarySearchAppBar() {
     <div className={classes.grow}>
       <AppBar position="static">
         <Toolbar>
-          <IconButton
+          {/* <IconButton
             edge="start"
             className={classes.menuButton}
             color="inherit"
@@ -230,25 +233,28 @@ export default function PrimarySearchAppBar() {
             onClick={HandleOpenDrawer}
           >
             <MenuIcon />
-          </IconButton>
-          <Typography className={classes.title} variant="h6" noWrap>
+          </IconButton> */}
+          {/* <Typography className={classes.title} variant="h6" noWrap>
             IITC 
-          </Typography>
+          </Typography> */}
+          <img src="images/logo.png" className={classes.logoimg}></img>
           
           <div className={classes.grow} />
           <div className={classes.sectionDesktop}>
-            <a href="#au">
-            <IconButton><div className={classes.about}>About Us</div></IconButton></a>
+          <a href="/course">
+            <IconButton><div className={classes.about}>Courses</div></IconButton></a>
+            <a href="/">
+            <IconButton><div className={classes.about}>Home</div></IconButton></a>
             {/* <IconButton aria-label="show 4 new mails" color="inherit">
               <Badge badgeContent={4} color="secondary">
                 <MailIcon />
               </Badge>
             </IconButton> */}
-            <IconButton aria-label="show 17 new notifications" color="inherit">
+            {/* <IconButton aria-label="show 17 new notifications" color="inherit">
               <Badge badgeContent={17} color="secondary">
                 <NotificationsIcon />
               </Badge>
-            </IconButton>
+            </IconButton> */}
             {/* <IconButton
               edge="end"
               aria-label="account of current user"

@@ -160,7 +160,7 @@ export default function Lands() {
 
       {/* Downloads */}
       
-      <div className="bb">
+      {/* <div className="bb">
         <div className="flexes">
           <div className="downdiv">
             <div>
@@ -204,7 +204,7 @@ export default function Lands() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Residential */}
       

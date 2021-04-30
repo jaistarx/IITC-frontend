@@ -37,9 +37,9 @@ export default function Crs() {
       <div>
         {res.map((course) => (
           <div className="bb flexes mt">
-            <div>
+            {/* <div>
               <img src={course.img} alt="book"></img>
-            </div>
+            </div> */}
             <div className="cc">
               <h3>{course.name}</h3>
               <p>{course.description}</p>

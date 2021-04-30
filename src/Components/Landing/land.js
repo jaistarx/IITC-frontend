@@ -6,6 +6,12 @@ export default function Lands() {
   return (
     <div>
       <div className="carou">
+      <h1 style={{ textAlign: "center", marginTop: "3%" }} className="fn">
+          {" "}
+          INTELLIGENT INSTITUTE FOR TECHNICAL COACHING
+        </h1>
+        <br></br>
+        
         <Carousel>
           <Carousel.Item>
             <img
@@ -51,10 +57,7 @@ export default function Lands() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        <h2 style={{ textAlign: "center", marginTop: "3%" }} className="fn">
-          {" "}
-          Some tagline for the educational institution
-        </h2>
+        
       </div>
 
       {/* Services */}

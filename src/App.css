@@ -17,6 +17,9 @@
   margin-top: 5%;
 
 }
+.head{
+  position: fixed;
+}
 .redbn{
   color:white;
   background-color: #1687a7;

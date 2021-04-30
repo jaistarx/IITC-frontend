@@ -7,7 +7,7 @@ export default function Foot() {
     <div className="outer">
       <div className="flexing1">
         <div className="leftdetails">
-          <div>
+          {/* <div>
             <p>About Us</p>
           </div>
           <div>
@@ -24,14 +24,14 @@ export default function Foot() {
           </div>
           <div>
             <p>Feedback</p>
-          </div>
+          </div> */}
         </div>
-        <div className="rightdetails">
-          <div style={{color:"#3F3D56"}}>Website Name</div>
+        {/* <div className="rightdetails">
+          <div style={{color:"#3F3D56"}}>IITC</div>
           <div>
           Something about the service offered by the educational institution. Something about the service
           </div>
-        </div>
+        </div> */}
       </div>
       <div className="copyright">
             <span>copyright © 2020 domainname.com. All rights reserved. </span>

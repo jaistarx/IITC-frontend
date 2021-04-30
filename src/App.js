@@ -14,7 +14,7 @@ Axios.defaults.baseURL='https://iitcbackend.herokuapp.com/'
 function App() {
   return (
     <div>
-      <HeaderPage></HeaderPage>
+      <HeaderPage className="head"></HeaderPage>
       <Router>
         <LandingPage path='/'></LandingPage>
         <FooterPage path='/footer'></FooterPage>
